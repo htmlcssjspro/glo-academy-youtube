@@ -6,5 +6,4 @@
 - HTML
 - CSS
 - SCSS
-- SVG
 - SVG Sprites
