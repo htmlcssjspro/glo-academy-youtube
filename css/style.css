@@ -1,0 +1,242 @@
+form, button,
+input[type=button],
+input[type=reset],
+input[type=submit], img, p, span, a, div, article, section, nav, aside, main, footer, header, h6, h5, h4, h3, h2, h1, body {
+  display: block;
+  box-sizing: border-box;
+}
+
+ul li, ul, form, button,
+input[type=button],
+input[type=reset],
+input[type=submit], p, div, code, pre, body, html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.25;
+}
+
+h6, h5, h4, h3, h2, h1 {
+  font-weight: bolder;
+  -webkit-margin-before: 0.5em;
+          margin-block-start: 0.5em;
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+  -webkit-margin-start: 1em;
+          margin-inline-start: 1em;
+  -webkit-margin-end: 1em;
+          margin-inline-end: 1em;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+textarea, select,
+option, input, button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+button:focus, button.focus,
+input[type=button]:focus,
+input[type=button].focus,
+input[type=reset]:focus,
+input[type=reset].focus,
+input[type=submit]:focus,
+input[type=submit].focus {
+  outline: none;
+}
+button:disabled, button.disabled,
+input[type=button]:disabled,
+input[type=button].disabled,
+input[type=reset]:disabled,
+input[type=reset].disabled,
+input[type=submit]:disabled,
+input[type=submit].disabled {
+  opacity: 0.65;
+}
+
+textarea, select,
+option, input {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.dn,
+[hidden] {
+  display: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 70px 20px 32px;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 20px;
+  height: 17px;
+  margin-right: 28px;
+}
+
+.menu-line {
+  width: 20px;
+  height: 3px;
+  background: #1f2022;
+  border-radius: 20px;
+}
+
+.logo {
+  margin-right: 59px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 830px;
+  width: 50%;
+  padding-right: 17px;
+  background: #ebebeb;
+  border-radius: 22px;
+}
+
+.input-search {
+  width: 100%;
+  padding: 12px 23px;
+  background-color: transparent;
+  border: none;
+}
+
+.button-search {
+  width: 19px;
+  height: 19px;
+  background-color: transparent;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.icon-search {
+  fill: #000;
+}
+
+.icons-link {
+  display: inline;
+  opacity: 0.24;
+}
+
+.icons-link:hover {
+  opacity: 0.7;
+}
+
+.icons-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.user {
+  margin-left: 45px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=maps/style.css.map */
